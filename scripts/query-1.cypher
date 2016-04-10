@@ -1,9 +1,8 @@
-// Describe your query
-// at the start
-// in comments.
+// This query searches and returns all candidates that got a seat in the elections.
+// It searches all the Candidate nodes with the lable Elected that contains a Yes rather than a no.
 
 
 MATCH
-	(n)
+	(candidate:Candidate {Elected: "Yes"})
 RETURN
-	n;
+	candidate;
