@@ -1,9 +1,8 @@
-// Describe your query
-// at the start
-// in comments.
+// This query shows all the candidates from tipperary.
+// It gathers all candidates that have a relationship tag with the tipperary constituency node.
 
 
 MATCH
-	(n)
+	(candidate:Candidate)<-[:HAS]-(constituency:Constituency {Name:"Tipperary"})
 RETURN
-	n;
+	candidate;
