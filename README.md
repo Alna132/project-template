@@ -60,3 +60,9 @@ RETURN
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+2. [Stackoverflow relationships](http://stackoverflow.com/questions/20456002/adding-relationship-to-existing-nodes-with-cypher), how to add a relationship to existing nodes.
+3. [Neo4j docs](http://neo4j.com/docs/stable/query-load-csv.html), loading a csv file into neo4j.
+4. [Stackoverflow multiple relationships](http://stackoverflow.com/questions/27924178/creating-multiple-relationships-to-existing-nodes-with-cypher), how to add multiple relationships to multiple nodes all at once.
+5. [Neo4j docs](http://neo4j.com/docs/2.0/cypher-refcard/), for info on cypher.
+6. [RTE](http://www.rte.ie/news/election-2016/), for info on the election.
+7. [TodayFM](http://www.todayfm.com/mobile/index.php?id=26959), for the election counts.
