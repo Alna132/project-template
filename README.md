@@ -15,7 +15,11 @@ Creating the database was quite tedious as each of the 553 relationships had to 
 
 1. The Constituency nodes are created by copying and pasting all the code from CreateConstituencyNodes.txt
 1. The Party nodes are created by copying and pasting all the code from CreatePartyNodes.txt
-1. The Candidate node are created by importing the Candidates.csv file into neo4j.
+1. The Candidate node are created by importing the Candidates.csv file into neo4j. Use this to load the csv file correctly. 
+```cypher
+LOAD CSV WITH HEADERS FROM "file:///Path/Candidates.csv" AS csvLine
+CREATE (c:Candidate { Name: csvLine.Name, FirstCount:toInt(csvLine.FirstCount), Elected: csvLine.Elected }) 
+```
 1. Once all the nodes are created an index must be made for each one. this is dove quite simpilly by pasting these 3 lines into neo4j.
 ```cypher
 
