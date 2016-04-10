@@ -1,0 +1,16 @@
+﻿Create
+(AAAPBP:Party {Name:'Anti-Austerity Alliance-People Before Profit',Leader:'Collective Leadership',Leaning:'Left-wing'}),
+(CD:Party {Name:'Catholic Democrats',Leader:'Nora Bennis',Leaning:'Right-wing'}),
+(DDI:Party {Name:'Direct Democracy Ireland',Leader:'Pat Greene',Leaning:'Right-wing'}),
+(FF:Party {Name:'Fianna Fail',Leader:'Micheal Martin',Leaning:'Right-wing'}),
+(FG:Party {Name:'Fine Gael',Leader:'Enda Kenny',Leaning:'Right-wing'}),
+(FN:Party {Name:'Fis Nua',Leader:'None',Leaning:'Left-wing'}),
+(GP:Party {Name:'Green Party',Leader:'Eamon Ryan',Leaning:'Centre'}),
+(IA:Party {Name:'Independent Alliance',Leader:'Feargal Quinn',Leaning:'Independent'}),
+(I:Party {Name:'Independent',Leader:'None',Leaning:'Independent'}),
+(IDP:Party {Name:'Irish Democratic Party',Leader:'Ken Smollen',Leaning:'Centre'}),
+(Labour:Party {Name:'Labour',Leader:'Joan Burton',Leaning:'Left-wing'}),
+(RN:Party {Name:'Renua',Leader:'Lucinda Creighton',Leaning:'Right-wing'}),
+(SD:Party {Name:'Social Democrats',Leader:'Roisin Shortall',Leaning:'Left-wing'}),
+(SF:Party {Name:'Sinn Fein',Leader:'Gerry Adams',Leaning:'Left-wing'}),
+(WP:Party {Name:'Workers Party',Leader:'Michael Donnelly',Leaning:'Left-wing'});

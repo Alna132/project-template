@@ -1,9 +1,41 @@
-// This query creates nodes representing all constituencies in Ireland.
-
-
-CREATE
-	(gw:Constituency {name: "Galway West"})
-	, (gw:Constituency {name: "Galway East"})
-	, ...
-	
-;
+Create 
+(Carlow-Kilkenny:Constituency {Name:'Carlow-Kilkenny',Seats:'5',Electorate:'107023',ValidVotes:'70009',Spoiled:’505'}),
+(Cavan-Monaghan:Constituency {Name:'Cavan-Monaghan',Seats:'4',Electorate:'90618',ValidVotes:'59650',Spoiled:’598'}),
+(Clare:Constituency {Name:'Clare',Seats:'4',Electorate:'83660',ValidVotes:'57000',Spoiled:’407'}),
+(CorkE:Constituency {Name:'Cork East',Seats:'4',Electorate:'83236',ValidVotes:'52806',Spoiled:’445'}),
+(CorkNC:Constituency {Name:'Cork North-Central',Seats:'4',Electorate:'81609',ValidVotes:'51174',Spoiled:’516'}),
+(CorkNW:Constituency {Name:'Cork North-West',Seats:'3',Electorate:'67589',ValidVotes:'46958',Spoiled:’395’}),
+(CorkSC:Constituency {Name:'Cork South-Central',Seats:'4',Electorate:'84482',ValidVotes:'55682',Spoiled:’404’}),
+(CorkSW:Constituency {Name:'Cork South-West',Seats:'3',Electorate:'63583',ValidVotes:'63583',Spoiled:’331’}),
+(Donegal:Constituency {Name:'Donegal',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinBN:Constituency {Name:'Dublin Bay North',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinBS:Constituency {Name:'Dublin Bay South',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinC:Constituency {Name:'Dublin Central',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinF:Constituency {Name:'Dublin Fingal',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinMW:Constituency {Name:'Dublin Mid-West',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinNW:Constituency {Name:'Dublin North-West',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinR:Constituency {Name:'Dublin Rathdown',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinSC:Constituency {Name:'Dublin South-Central',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinSW:Constituency {Name:'Dublin South-West',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DublinW:Constituency {Name:'Dublin West',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(DunLaoghaire:Constituency {Name:'Dun Laoghaire',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(GalwayE:Constituency {Name:'Galway East',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(GalwayW:Constituency {Name:'Galway West',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Kerry:Constituency {Name:'Kerry',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(KildareN:Constituency {Name:'Kildare North',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(KildareS:Constituency {Name:'Kildare South',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Laois:Constituency {Name:'Laois',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(LimerickCity:Constituency {Name:'Limerick City',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(LimerickCounty:Constituency {Name:'Limerick County',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Longford-Westmeath:Constituency {Name:'Longford-Westmeath',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Louth:Constituency {Name:'Louth',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Mayo:Constituency {Name:'Mayo',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(MeathE:Constituency {Name:'Meath East',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(MeathW:Constituency {Name:'Meath West',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Offaly:Constituency {Name:'Offaly',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Roscommon-Galway:Constituency {Name:'Roscommon-Galway',Seats:'3',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Sligo-Leitrim:Constituency {Name:'Sligo-Leitrim',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Tipperary:Constituency {Name:'Tipperary',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Waterford:Constituency {Name:'Waterford',Seats:'4',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Wexford:Constituency {Name:'Wexford',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’}),
+(Wicklow:Constituency {Name:'Wicklow',Seats:'5',Electorate:'',ValidVotes:'',Spoiled:’’})
