@@ -12,6 +12,7 @@ My task was to represent information about each of the constituencies in a Neo4j
 My database holds 40 Constituency nodes, 15 Party nodes and 553 Candidate nodes.
 The candidates have relationsips to the parties and constituencies. For example: Heather Humphry is a member of Fine Gael and belongs to the Cavan-Monaghan constituency. 
 Creating the database was quite tedious as each of the 553 relationships had to be pasted in one by one. I checked places like stack overflow and neo4j's documentation for a quicker way, but was unsuccessful.
+(For some reason everytime I open neo4j in my database folder, all my node and relationships vanish. So far I havent found an reason for this online. So I have to recreate the nodes and relationships everytime I enter the database.)
 
 1. The Constituency nodes are created by copying and pasting all the code from CreateConstituencyNodes.txt
 1. The Party nodes are created by copying and pasting all the code from CreatePartyNodes.txt
